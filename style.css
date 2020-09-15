@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 100%;
+}
+
+#wrap {
+  text-align: center;
+}
+
+#name {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: lighter;
+  letter-spacing: 2pt;
+}
+
+#profession {
+  font-weight: bold;
+}
+
+#portfolio,
+#contact {
+  margin: 2%;
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+}
+
+#portfolio:hover,
+#contact:hover {
+  background-color: grey;
+  color: white;
+}
+
+#linkedinLink {
+  text-decoration: none;
+  color: cornflowerblue;
+}
