@@ -1,64 +1,480 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0f1419" />
 
-    <!-- Bootstrap CSS -->
+    <title>Isai Albarran — Senior Frontend Engineer · React / Next.js / TypeScript</title>
+    <meta
+      name="description"
+      content="Senior Frontend Engineer based in Poland. 7+ years building fast, scalable React and Next.js applications for e-commerce, SaaS and enterprise. Open to remote across the EU."
+    />
+    <meta name="author" content="Isai Albarran" />
+    <link rel="canonical" href="https://www.isaialbarran.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.isaialbarran.com/" />
+    <meta
+      property="og:title"
+      content="Isai Albarran — Senior Frontend Engineer"
+    />
+    <meta
+      property="og:description"
+      content="7+ years building fast, scalable React and Next.js applications for e-commerce, SaaS and enterprise. Open to remote across the EU."
+    />
+    <meta property="og:image" content="https://www.isaialbarran.com/isai-icon.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Isai Albarran — Senior Frontend Engineer" />
+    <meta
+      name="twitter:description"
+      content="7+ years building fast, scalable React and Next.js applications for e-commerce, SaaS and enterprise."
+    />
+    <meta name="twitter:image" content="https://www.isaialbarran.com/isai-icon.jpg" />
+
+    <link rel="icon" href="isai-icon.jpg" />
+    <link rel="apple-touch-icon" href="isai-icon.jpg" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+      crossorigin
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
     />
-    <link />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="isai-icon.jpg">
 
-    <title>Isai Dev</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Isai Albarran",
+        "url": "https://www.isaialbarran.com",
+        "image": "https://www.isaialbarran.com/isai-icon.jpg",
+        "jobTitle": "Senior Frontend Engineer",
+        "description": "Senior Frontend Engineer with 7+ years building fast, scalable React and Next.js applications for e-commerce, SaaS and enterprise.",
+        "email": "mailto:isaialbarran@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "PL"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/isai-albarran",
+          "https://github.com/isaialbarran"
+        ],
+        "knowsAbout": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Node.js",
+          "GraphQL",
+          "Module Federation",
+          "AWS",
+          "Web Performance"
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "BSH Home Appliances Group"
+        }
+      }
+    </script>
   </head>
+
   <body>
-    <div class="h-100 row align-items-center">
-        <div class="container w-80" id="wrap">
-        <p id="name">Hello, I'm Isaí. <strong id="profession">I'm a Full Stack Developer</strong></p>
-          <p id="linkedin">
-            Also, I do have <a id="linkedinLink" href="https://www.linkedin.com/in/isai-albarran/" target="_blank">LinkedIn.</a>
-          </p>
-          <hr class="my-4" />
-          <div class="row justify-content-center">
-            <button class="btn btn-primary " id="portfolio" href="#" role="button">Portfolio</a>
-            <button class="btn btn-primary " id="contact" type="submit"> <a id ="mailto" href="mailto: isaialbarran@gmail.com">Contact</a> </button>
-          </div>          
-        </div>
-      </div>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="site">
+      <header class="site-header">
+        <a class="brand" href="#top">Isai Albarran</a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#stack">Stack</a>
+          <a href="#contact" class="nav-accent">Contact</a>
+        </nav>
+      </header>
+
+      <main id="main">
+        <section class="hero" id="top">
+          <div class="hero-inner">
+            <p class="eyebrow">SENIOR FRONTEND ENGINEER</p>
+            <h1>I build fast, scalable web products that teams love to ship.</h1>
+            <p class="lede">
+              7+ years crafting React and Next.js applications for e-commerce,
+              SaaS, and enterprise. Based in Poland, open to remote across the
+              EU.
+            </p>
+
+            <ul class="chips" aria-label="Core stack">
+              <li>React</li>
+              <li>Next.js</li>
+              <li>TypeScript</li>
+              <li>Node.js</li>
+            </ul>
+
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#projects">View my work</a>
+              <a class="btn btn-ghost" href="#contact">Get in touch</a>
+              <a
+                class="btn btn-ghost"
+                href="assets/Isai_Albarran_CV.pdf"
+                download
+              >Download CV</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="about" aria-labelledby="about-title">
+          <p class="eyebrow tight" id="about-title">ABOUT</p>
+          <div class="about-grid">
+            <p>
+              Senior Frontend Engineer focused on building scalable,
+              high-performance web applications. I care about clean
+              architecture, comprehensive testing, reusable component
+              libraries, and shipping product that holds up under real load.
+            </p>
+            <p>
+              I’ve worked across e-commerce (BSH), SaaS data platforms
+              (Norstella), enterprise, and startup environments — from
+              distributed teams building micro frontends with Module
+              Federation to full-stack features with Node.js and cloud
+              integration on AWS and GCP.
+            </p>
+          </div>
+        </section>
+
+        <section
+          class="section"
+          id="experience"
+          aria-labelledby="experience-title"
+        >
+          <p class="eyebrow tight" id="experience-title">EXPERIENCE</p>
+          <ol class="timeline" role="list">
+            <li class="role">
+              <div class="role-head">
+                <div>
+                  <h3>Senior Frontend Developer</h3>
+                  <p class="role-company">BSH Home Appliances Group · via K2 / Adesso</p>
+                </div>
+                <p class="role-meta">Jul 2024 — Present · Remote (EU)</p>
+              </div>
+              <ul>
+                <li>
+                  Designed and shipped high-traffic e-commerce applications
+                  with React, Next.js, TypeScript and GraphQL, with a focus
+                  on performance, accessibility and code quality.
+                </li>
+                <li>
+                  Migrated apps to Next.js with server-side rendering;
+                  optimized Lighthouse scores and reduced load times.
+                </li>
+                <li>
+                  Built and maintained a TypeScript + Storybook component
+                  library used across teams to enforce design consistency.
+                </li>
+                <li>
+                  Applied hexagonal architecture and modular code-splitting
+                  to keep the bundle lean as the platform scaled.
+                </li>
+                <li>
+                  Strengthened reliability with Jest and React Testing
+                  Library tied into CI.
+                </li>
+              </ul>
+            </li>
+
+            <li class="role">
+              <div class="role-head">
+                <div>
+                  <h3>Senior Frontend Developer</h3>
+                  <p class="role-company">
+                    Aptitude Global · Norstella data platform
+                  </p>
+                </div>
+                <p class="role-meta">Sep 2022 — Oct 2024 · Spain</p>
+              </div>
+              <ul>
+                <li>
+                  Built interactive dashboards and data visualisations that
+                  turned backend data into clear, actionable business views.
+                </li>
+                <li>
+                  Implemented Micro Frontends with Module Federation for
+                  independent, reusable modules across teams.
+                </li>
+                <li>
+                  Used React Query and Zustand for responsive data
+                  fetching and state management.
+                </li>
+                <li>
+                  Authored a custom MUI-based component library, aligned
+                  with design standards and faster to adopt.
+                </li>
+              </ul>
+            </li>
+
+            <li class="role">
+              <div class="role-head">
+                <div>
+                  <h3>Full Stack Developer</h3>
+                  <p class="role-company">
+                    Daugherty Business Solutions · Newsletter platform
+                  </p>
+                </div>
+                <p class="role-meta">Dec 2021 — Sep 2022 · Poland</p>
+              </div>
+              <ul>
+                <li>
+                  Delivered a React + Redux platform serving thousands of
+                  active users, with CI/CD on Docker.
+                </li>
+                <li>
+                  Ran server migration to AWS (S3, CloudFront, Cognito,
+                  Security Groups) to harden security and distribution.
+                </li>
+                <li>
+                  Added Cypress coverage and mentored juniors while
+                  collaborating with design and backend.
+                </li>
+              </ul>
+            </li>
+
+            <li class="role">
+              <div class="role-head">
+                <div>
+                  <h3>Full Stack Developer</h3>
+                  <p class="role-company">Grupo Onetec · Normon (pharma)</p>
+                </div>
+                <p class="role-meta">Oct 2020 — Dec 2021 · Madrid</p>
+              </div>
+              <ul>
+                <li>
+                  Shipped features in a Node.js + React stack: mailing
+                  workflows, notifications and custom Express APIs.
+                </li>
+                <li>
+                  Integrated MySQL via ORM and external APIs, documented
+                  with Swagger.
+                </li>
+                <li>
+                  Contributed to CI/CD and regular refactors to keep the
+                  codebase production-ready.
+                </li>
+              </ul>
+            </li>
+
+            <li class="role">
+              <div class="role-head">
+                <div>
+                  <h3>Full Stack Developer</h3>
+                  <p class="role-company">Demium Startups</p>
+                </div>
+                <p class="role-meta">Mar 2019 — Sep 2020 · Madrid</p>
+              </div>
+              <ul>
+                <li>
+                  Node.js microservices and collaboration on Go services,
+                  exposure to multi-language backend architectures.
+                </li>
+                <li>
+                  Frontend features with React, ES6, HTML and CSS.
+                </li>
+                <li>
+                  Google Cloud Functions for serverless workflows;
+                  Postgres + Sequelize for data; REST APIs with Postman.
+                </li>
+              </ul>
+            </li>
+
+            <li class="role">
+              <div class="role-head">
+                <div>
+                  <h3>Software Engineer</h3>
+                  <p class="role-company">everis · Banco Santander (NetReveal)</p>
+                </div>
+                <p class="role-meta">Mar 2018 — Jan 2019 · Madrid</p>
+              </div>
+              <ul>
+                <li>
+                  Development and maintenance on Oracle SQL; incident
+                  resolution on the NetReveal system for Banco Santander.
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </section>
+
+        <section
+          class="section"
+          id="projects"
+          aria-labelledby="projects-title"
+        >
+          <p class="eyebrow tight" id="projects-title">PROJECTS</p>
+          <div class="projects">
+            <article class="project">
+              <header>
+                <h3>passthecert.com</h3>
+                <span class="tag tag-live">Live</span>
+              </header>
+              <p>
+                SaaS platform for CompTIA Security+ certification prep.
+                Full-stack, from architecture to Stripe integration.
+              </p>
+              <ul class="tech" aria-label="Stack">
+                <li>Next.js</li>
+                <li>Supabase</li>
+                <li>Stripe</li>
+                <li>Tailwind</li>
+              </ul>
+            </article>
+
+            <article class="project">
+              <header>
+                <h3>BSH e-commerce migration</h3>
+                <span class="tag tag-enterprise">Enterprise</span>
+              </header>
+              <p>
+                Large-scale frontend migration for BSH Home Appliances Group.
+                Distributed team, component library, comprehensive testing.
+              </p>
+              <ul class="tech" aria-label="Stack">
+                <li>React</li>
+                <li>Next.js</li>
+                <li>TypeScript</li>
+                <li>Storybook</li>
+              </ul>
+            </article>
+
+            <article class="project">
+              <header>
+                <h3>Norstella data dashboards</h3>
+                <span class="tag tag-saas">SaaS</span>
+              </header>
+              <p>
+                Micro Frontend architecture with Module Federation. Data
+                visualisation dashboards in a distributed microservices
+                environment.
+              </p>
+              <ul class="tech" aria-label="Stack">
+                <li>React</li>
+                <li>Module Federation</li>
+                <li>Zustand</li>
+                <li>MUI</li>
+              </ul>
+            </article>
+
+            <article class="project">
+              <header>
+                <h3>Daugherty newsletter platform</h3>
+                <span class="tag tag-cloud">Cloud</span>
+              </header>
+              <p>
+                React + Redux platform serving thousands of users. AWS
+                infrastructure, CI/CD with Docker, authentication with
+                Cognito.
+              </p>
+              <ul class="tech" aria-label="Stack">
+                <li>React</li>
+                <li>Redux</li>
+                <li>AWS</li>
+                <li>Docker</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="stack" aria-labelledby="stack-title">
+          <p class="eyebrow tight" id="stack-title">STACK</p>
+          <div class="stack">
+            <div>
+              <p class="stack-label">FRONTEND</p>
+              <p>
+                React / Next.js<br />
+                TypeScript<br />
+                Tailwind / SASS<br />
+                Storybook / MUI
+              </p>
+            </div>
+            <div>
+              <p class="stack-label">BACKEND &amp; APIS</p>
+              <p>
+                Node.js / Express<br />
+                REST / GraphQL<br />
+                PostgreSQL / MySQL<br />
+                Supabase
+              </p>
+            </div>
+            <div>
+              <p class="stack-label">TESTING</p>
+              <p>
+                Jest / Vitest<br />
+                React Testing Library<br />
+                Playwright<br />
+                Cypress
+              </p>
+            </div>
+            <div>
+              <p class="stack-label">CLOUD &amp; DEVOPS</p>
+              <p>
+                AWS / GCP<br />
+                Docker<br />
+                GitHub Actions<br />
+                Vercel
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="section contact"
+          id="contact"
+          aria-labelledby="contact-title"
+        >
+          <p class="eyebrow tight" id="contact-title">GET IN TOUCH</p>
+          <p class="lede">Open to remote opportunities across the EU.</p>
+          <ul class="contact-links" role="list">
+            <li>
+              <a href="mailto:isaialbarran@gmail.com"
+                >isaialbarran@gmail.com</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/isai-albarran/"
+                target="_blank"
+                rel="noopener"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/isaialbarran"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a href="assets/Isai_Albarran_CV.pdf" download>CV (PDF)</a>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>© <span id="year">2026</span> Isai Albarran</p>
+      </footer>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-    <!-- React -->
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-  
-    <!-- Cargamos nuestro componente de React. -->
-    <script src="like_button.js"></script>
-</body>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
